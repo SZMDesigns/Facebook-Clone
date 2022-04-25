@@ -218,7 +218,7 @@
     font-size: .9rem;
 }
 .sidenav__item-icon--circle-white {
-    background: var(--fb-blue);
+    background: var(--icon-circle-bg);
     border-radius: 50%;
     font-size: 1rem;
 }
