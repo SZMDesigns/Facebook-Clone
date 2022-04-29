@@ -188,6 +188,7 @@
     height: 40px;
     width: 40px;
     margin-right:20px;
+    object-fit: cover;
 }
 .sidenav__item-title{
     font-size: 1rem;
@@ -226,6 +227,8 @@
     background: var(--icon-circle-bg);
     border-radius: 50%;
     font-size: 1rem;
+    width: 35px;
+    height: 35px;
 }
 .sidenav__item-icon .fas, .sidenav__item-icon .fab{
     color: var(--fb-blue);
@@ -244,3 +247,10 @@
     display: block;
 }
 /* Section 2 Left Bottom */
+.sidenav__heading-title{
+    display: block;
+    color: var(--light-color-text);
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
