@@ -20,6 +20,22 @@
     --shadow-color: rgba(0, 0, 0, .25);
     --icon-circle-bg: linear-gradient(0deg, rgba(65,67,69,1) 0%, rgba(107,110,114,1) 100%);
     }
+    @media (prefers-color-scheme: dark){
+        :root{
+        --fb-blue: #8988ba;
+        --fb-black: #ffffff;   
+        --fb-red: #ee2340; 
+        --fb-green: #6fcf97;  
+        --fb-yellow: #f6b024;
+        --fb-bgcolor: #141432;
+        --fb-white: #ffffff;
+        --fb-whitebg: #090917;
+        --dark-color-text: #FFFFFF;
+        --light-color-text: #d4d4dc;
+        --button-link: #312e84;
+        --stories-bg: #29275a;
+        }
+    }
     /* Header Information Below */
     body{
         background: var(--fb-bgcolor);
@@ -52,6 +68,13 @@
         position:relative;
         margin-left: 10px;
     }
+    .header__mobile-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.7rem;
+
+    }
     .header__logo-search .fa-search{
         position: absolute;
         top: 14px;
@@ -67,6 +90,7 @@
         padding-left: 35px;
         font-weight: 300;
         border: none;
+        margin-right: 20px;
     }
     .header__menu-tabs{
         display:flex;
@@ -560,5 +584,11 @@ align-items: flex-start;
     right: -5px;
     font-weight: 700;
     z-index: 3;
+}
+/* bar icon - Mobile Version */
+@media only screen and (max-width:1300px){
+    .header__menu-tabs{
+        display: none;
+    }
 
 }
