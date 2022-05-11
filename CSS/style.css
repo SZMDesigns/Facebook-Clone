@@ -271,6 +271,7 @@
     background: var(--button-link);
     margin-bottom: 15px;
     display: block;
+    
 }
 /* Section 2 Left Bottom */
 .sidenav__heading-title{
@@ -585,6 +586,38 @@ align-items: flex-start;
     font-weight: 700;
     z-index: 3;
 }
+
+/* Section 2 Left Bottom */
+.sidenav2{
+    display: block;
+}
+.sidenav2__heading-title {
+    display: block;
+    color: var(--light-color-text);
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    
+}
+.sidenav2__line {
+    height: 3px;
+    background: var(--button-link);
+    margin-bottom: 15px;
+    display: block;
+    padding: 0 200px;
+
+}
+.sidenav2__info{
+    width: 100%;
+    display: block;
+    justify-content: space-between;
+    
+  
+}
+.sidenav2__info .fa-ellipsis-h{
+   
+}
+   
+
 
 /* bar icon - Mobile Version */
 @media only screen and (max-width:1300px){
